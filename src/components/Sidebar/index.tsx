@@ -25,7 +25,7 @@ export function Sidebar() {
       <nav>
         <ul>
           <li>
-            <NavLink to="">
+            <NavLink to="burgers">
               <BurguerIcon />
               <span>Hambúrgueres</span>
             </NavLink>

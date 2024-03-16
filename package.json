@@ -1,6 +1,7 @@
 {
   "name": "food-commerce-dev",
   "version": "0.1.0",
+  "homepage": "https://luc4sf.github.io/FoodCommerce",
   "private": true,
   "dependencies": {
     "@brazilian-utils/brazilian-utils": "^1.0.0-rc.12",
@@ -30,6 +31,8 @@
     "yup": "^1.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -26,19 +26,10 @@ export function SnackProvider({ children }: SnackProviderProps) {
   useEffect(() => {
     (async () => {
       try {
-        const burgerRequest = await getBurgers();
-        const pizzaRequest = await getPizzas();
-        const drinkRequest = await getDrinks();
-        const dessertRequest = await getDesserts();
-
-        const requests = [burgerRequest, pizzaRequest, drinkRequest, dessertRequest];
-
-        const [
-          { data: burgerResponse },
-          { data: pizzaResponse },
-          { data: drinkResponse },
-          { data: dessertResponse },
-        ] = await Promise.all(requests);
+        const burgerResponse = await getBurgers();
+        const pizzaResponse = await getPizzas();
+        const drinkResponse = await getDrinks();
+        const dessertResponse = await getDesserts();
 
         setBurgers(burgerResponse);
         setPizzas(pizzaResponse);

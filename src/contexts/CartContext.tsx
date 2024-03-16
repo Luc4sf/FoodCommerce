@@ -7,7 +7,6 @@ import { Snack } from "../interfaces/Snack";
 
 import { snackEmoji } from "../helpers/snackEmoji";
 import { CustomerData } from "../interfaces/CustomerData";
-import { processCheckout } from "../services/api";
 
 interface CartContextProps {
   cart: Snack[];
@@ -113,23 +112,12 @@ export function CartProvider({ children }: CartProviderProps) {
   }
 
   function confirmOrder() {
-    navigate("/payment");
+    navigate("/FoodCommerce/payment");
   }
 
-  async function payOrder(customer: CustomerData) {
-    try {
-      const response = await processCheckout(cart, customer);
-
-      if (response.data.status !== "PAID") {
-        toast.error("Erro ao processar o pagamento, por favor, tente novamente mais tarde.");
-        return;
-      }
-      clearCart();
-      navigate(`/order/success/${response.data.id}`);
-    } catch (error) {
-      console.error(error);
-      toast.error("Erro ao processar o pedido.");
-    }
+  async function payOrder() {
+    clearCart();
+    navigate(`/FoodCommerce/order/success/12`);
 
     return;
   }

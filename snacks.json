@@ -1,5 +1,5 @@
 {
-  "burgers": [
+  "snacks": [
     {
       "id": 1,
       "snack": "burger",
@@ -39,12 +39,9 @@
       "description": "Já pensou em comer aquele sanduíche com carne dupla e saborosa, recheada com queijo, molho e salada? Então você pensou exatamente nesse hambúrguer.",
       "price": 20,
       "image": "https://i.imgur.com/fdEY2kY.jpg"
-    }
-  ],
-
-  "pizzas": [
+    },
     {
-      "id": 1,
+      "id": 6,
       "snack": "pizza",
       "name": "Calabresa",
       "description": "Pizza recheada com calabresa, cebola, mussarela, orégano e azeitona, tendo uma borda recheada com catupiry.",
@@ -52,7 +49,7 @@
       "image": "https://i.imgur.com/5rjJGkV.jpg"
     },
     {
-      "id": 2,
+      "id": 7,
       "snack": "pizza",
       "name": "Portuguesa",
       "description": "Pizza recheada com presunto, mussarela, ovo, cebola, azeitona, orégano, tomate e molho de tomate, tendo uma borda recheada com catupiry.",
@@ -60,7 +57,7 @@
       "image": "https://i.imgur.com/WCoyGoI.png"
     },
     {
-      "id": 3,
+      "id": 8,
       "snack": "pizza",
       "name": "Frango com Catupiry",
       "description": "Pizza recheada com frango, catupiry e brócolis, tendo uma borda recheada com catupiry.",
@@ -68,7 +65,7 @@
       "image": "https://i.imgur.com/BuXrO8d.jpg"
     },
     {
-      "id": 4,
+      "id": 9,
       "snack": "pizza",
       "name": "Napolitana",
       "description": "Pizza recheada com queijo, mussarela, tomate e couve, tendo uma borda recheada com catupiry.",
@@ -76,7 +73,7 @@
       "image": "https://i.imgur.com/u3DfvCE.jpg"
     },
     {
-      "id": 5,
+      "id": 10,
       "snack": "pizza",
       "name": "Mussarela",
       "description": "Pizza recheada com mussarela, tendo uma borda recheada com catupiry. ",
@@ -84,7 +81,7 @@
       "image": "https://i.imgur.com/kPNXpa0.jpg"
     },
     {
-      "id": 6,
+      "id": 11,
       "snack": "pizza",
       "name": "Marguerita",
       "description": "Pizza recheada com calabresa, mussarela, cebola, azeitona e orégano, tendo uma borda recheada com catupiry.",
@@ -92,7 +89,7 @@
       "image": "https://i.imgur.com/AsEfsZN.jpg"
     },
     {
-      "id": 7,
+      "id": 12,
       "snack": "pizza",
       "name": "Brigadeiro com Morango",
       "description": "Pizza doce recheada com brigadeiro e morango.",
@@ -100,7 +97,7 @@
       "image": "https://i.imgur.com/43yC2Ap.jpg"
     },
     {
-      "id": 8,
+      "id": 13,
       "snack": "pizza",
       "name": "Banana",
       "description": "Pizza doce recheada com banana e leite condensado.",
@@ -108,18 +105,15 @@
       "image": "https://i.imgur.com/Pcrgg1P.jpg"
     },
     {
-      "id": 9,
+      "id": 14,
       "snack": "pizza",
       "name": "Chocolate",
       "description": "Pizza doce recheada com chocolate e bolinhas de chocolate.",
       "price": 30,
       "image": "https://i.imgur.com/RahAKkH.jpg"
-    }
-  ],
-
-  "drinks": [
+    },
     {
-      "id": 1,
+      "id": 15,
       "snack": "drink",
       "name": "Coca-Cola 2L",
       "description": "A tradicional Coca-Cola que a família brasileira adora.",
@@ -127,7 +121,7 @@
       "image": "https://i.imgur.com/Lg3aKhf.jpg"
     },
     {
-      "id": 2,
+      "id": 16,
       "snack": "drink",
       "name": "Guaraná Antarctica",
       "description": "O irresistível e saboroso Guaraná Antarctica em sua versão de latinha.",
@@ -135,7 +129,7 @@
       "image": "https://i.imgur.com/hOBrOIm.jpg"
     },
     {
-      "id": 3,
+      "id": 17,
       "snack": "drink",
       "name": "Suco de Abacaxi",
       "description": "Suco natural de abacaxi com leves incrementos de algumas hortaliças para fortificar sua saúde.",
@@ -143,18 +137,15 @@
       "image": "https://i.imgur.com/VV9qTMh.jpg"
     },
     {
-      "id": 4,
+      "id": 18,
       "snack": "drink",
       "name": "Suco de Laranja",
       "description": "Suco natural de laranja para você que é amante dessa fruta.",
       "price": 8,
       "image": "https://i.imgur.com/2Lf2gHy.jpg"
-    }
-  ],
-
-  "desserts": [
+    },
     {
-      "id": 1,
+      "id": 19,
       "snack": "dessert",
       "name": "Casquinha",
       "description": "A casquinha crocante e saborosa que nossos clientes amam.",
@@ -162,7 +153,7 @@
       "image": "https://i.imgur.com/YGmeoCm.jpg"
     },
     {
-      "id": 2,
+      "id": 20,
       "snack": "dessert",
       "name": "Chocolate com granulado",
       "description": "Sorvete de chocolate com granulados em chocolate para você se deliciar.",
@@ -170,7 +161,7 @@
       "image": "https://i.imgur.com/osAHOLe.jpg"
     },
     {
-      "id": 3,
+      "id": 21,
       "snack": "dessert",
       "name": "Flocos",
       "description": "O tradicional flocos vem com cobertura em chocolate para adocicar seu dia.",
@@ -178,7 +169,7 @@
       "image": "https://i.imgur.com/qgnFLiy.jpg"
     },
     {
-      "id": 4,
+      "id": 22,
       "snack": "dessert",
       "name": "Creme",
       "description": "O simples sorvete de creme com um gosto irresistível.",
@@ -186,7 +177,7 @@
       "image": "https://i.imgur.com/dFLysrT.jpg"
     },
     {
-      "id": 5,
+      "id": 23,
       "snack": "dessert",
       "name": "Morango",
       "description": "O clássico sorvete de morango que deixe tudo mais leve.",

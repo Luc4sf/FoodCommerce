@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import MainPage from "./pages/Main";
 import BurgersPage from "./pages/Main/Burgers";
@@ -13,15 +13,17 @@ import OrderSuccessPage from "./pages/Orders/Success";
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />}>
-        <Route path="/" element={<BurgersPage />} />
-        <Route path="/pizzas" element={<PizzasPage />} />
-        <Route path="/drinks" element={<DrinksPage />} />
-        <Route path="/desserts" element={<DessertsPage />} />
+      <Route path="/" element={<Navigate to="/FoodCommerce" />} />
+      <Route path="/FoodCommerce" element={<Navigate to="/FoodCommerce/burgers" />} />
+      <Route path="/FoodCommerce" element={<MainPage />}>
+        <Route path="burgers" element={<BurgersPage />} />
+        <Route path="pizzas" element={<PizzasPage />} />
+        <Route path="drinks" element={<DrinksPage />} />
+        <Route path="desserts" element={<DessertsPage />} />
       </Route>
-      <Route path="cart" element={<MyCartPage />} />
-      <Route path="payment" element={<PaymentPage />} />
-      <Route path="order">
+      <Route path="/FoodCommerce/cart" element={<MyCartPage />} />
+      <Route path="/FoodCommerce/payment" element={<PaymentPage />} />
+      <Route path="/FoodCommerce/order">
         <Route path="success/:orderId" element={<OrderSuccessPage />} />
       </Route>
     </Routes>
