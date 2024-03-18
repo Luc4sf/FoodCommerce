@@ -1,6 +1,6 @@
 # Food Commerce
 
-[![license mit](https://img.shields.io/github/license/Luc4sf/Spotify-Alura)](https://github.com/Luc4sf/FoodCommerce/blob/main/LICENSE.md)
+[![license mit](https://img.shields.io/github/license/Luc4sf/FoodCommerce)](https://github.com/Luc4sf/FoodCommerce/blob/main/LICENSE.md)
 
 > :rocket: Food Commerce project made as part of the Frontend Master course from Dev Samurai.
 > Using React, a responsive website was made with the following features:
