@@ -9,7 +9,7 @@
 >   Simple Checkout: The checkout process is streamlined for an efficient shopping experience.
 >   Secure Payment: Customers can make payments securely using reliable payment methods.
 
-> The technologies used in the Frontend were HTML, CSS, React, TypeScript as well as development plugins like ESLint and Prettier.
+> The technologies used in the Frontend were HTML, CSS, React, TypeScript as well as development plugins like ESLint and Prettier. GitHub Pages was used to host the site and make it accessible on the web.
 > It was used the library Axios to make HTTP requests. In the Frontend development (and in the Demo) a json file was used as database.
 > For the Backend it was used Docker Desktop, PostgreSQL and Prisma. The payment system was made with Asaas, using Asaas Sandbox as test.
 
